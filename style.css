@@ -245,7 +245,6 @@ html {
   align-items: center;
   justify-content: center;
   transition: 0.3s;
-  cursor: pointer;
   text-align: center;
 }
 
@@ -293,7 +292,7 @@ html {
   border: 2px solid #fff;
   width: fit-content;
   display: block;
-  margin: 20px auto;
+  margin: 50px auto;
   padding: 10px 22px;
   font-size: 16px;
   color: #fff;
@@ -573,11 +572,11 @@ html {
 }
 
 .curriculum .fila .izquierda {
-  border-right: 2px solid #e6cc00;
+  border-right: 2px solid #252a2e;
 }
 
 .curriculum .fila .derecha {
-  border-left: 2px solid #e6cc00;
+  border-left: 2px solid #252a2e;
 }
 
 .curriculum .fila .item {
