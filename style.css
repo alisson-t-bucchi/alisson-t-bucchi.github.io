@@ -20,6 +20,15 @@
   }
 }
 
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 * {
   box-sizing: border-box;
   font-family: "Righteous"; /** Work Sans */
@@ -51,7 +60,7 @@ html {
 }
 
 .container-header header .logo a {
-  font-family: "Righteous"; /** Righteous */
+  font-family: "Righteous";
   font-size: 36px;
   color: #e6cc00;
   text-decoration: none;
@@ -85,6 +94,7 @@ html {
 }
 
 /* SECCION I N I C I O */
+
 .home {
   background: linear-gradient(
       to top,
@@ -106,6 +116,9 @@ html {
   margin: auto;
   text-align: center;
   border-radius: 40px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .home .container-banner img {
