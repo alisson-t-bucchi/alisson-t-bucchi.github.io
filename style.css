@@ -385,12 +385,72 @@ html {
   font-size: 14px;
 }
 
-.skills .skill .linq {
+.skills .skill .java {
   width: 0%;
-  animation: 2s linq forwards;
+  animation: 2s java forwards;
 }
 
-@keyframes linq {
+@keyframes java {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+
+.skills .skill .javascript {
+  width: 0%;
+  animation: 2s javascript forwards;
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+.skills .skill .python {
+  width: 0%;
+  animation: 2s python forwards;
+}
+
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+
+.skills .skill .selenium {
+  width: 0%;
+  animation: 2s selenium forwards;
+}
+
+@keyframes selenium {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+.skills .skill .cypress {
+  width: 0%;
+  animation: 2s cypress forwards;
+}
+
+@keyframes cypress {
   0% {
     width: 0%;
   }
@@ -400,63 +460,18 @@ html {
   }
 }
 
-.skills .skill .htmlcssjavascript {
+.skills .skill .robot {
   width: 0%;
-  animation: 2s htmlcssjavascript forwards;
+  animation: 2s robot forwards;
 }
 
-@keyframes htmlcssjavascript {
+@keyframes robot {
   0% {
     width: 0%;
   }
 
   100% {
-    width: 95%;
-  }
-}
-
-.skills .skill .aspnetmvc {
-  width: 0%;
-  animation: 2s aspnetmvc forwards;
-}
-
-@keyframes aspnetmvc {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 89%;
-  }
-}
-
-.skills .skill .csharp {
-  width: 0%;
-  animation: 2s csharp forwards;
-}
-
-@keyframes csharp {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 81%;
-  }
-}
-
-.skills .skill .xamarin {
-  width: 0%;
-  animation: 2s xamarin forwards;
-}
-
-@keyframes xamarin {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 70%;
+    width: 55%;
   }
 }
 
@@ -501,7 +516,7 @@ html {
   }
 
   100% {
-    width: 99%;
+    width: 90%;
   }
 }
 

@@ -25,7 +25,7 @@ function efectoHabilidades() {
     habilidades[1].classList.add("javascript");
     habilidades[2].classList.add("python");
     habilidades[3].classList.add("selenium");
-    habilidades[4].classList.add("cyppress");
+    habilidades[4].classList.add("cypress");
     habilidades[5].classList.add("robot");
     habilidades[6].classList.add("comunication");
     habilidades[7].classList.add("teamwork");
