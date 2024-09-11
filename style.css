@@ -286,12 +286,14 @@ html {
   margin-bottom: 10px;
 }
 
-.aboutme button {
+.aboutme .document-buttons button {
   cursor: pointer;
   background-color: transparent;
   border: 2px solid #fff;
   width: fit-content;
-  display: block;
+  display: inline-block; 
+  left:420px;
+  align-items: center;
   margin: 50px auto;
   padding: 10px 22px;
   font-size: 16px;
