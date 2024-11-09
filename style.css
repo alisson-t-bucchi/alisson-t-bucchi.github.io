@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 @keyframes bounce {
   0%,
@@ -22,16 +23,16 @@
 
 @keyframes fadeInAnimation {
   0% {
-    opacity: 0.3;
+    opacity: 0.2;
   }
   100% {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 
 * {
   box-sizing: border-box;
-  font-family: "Righteous"; /** Work Sans */
+  font-family: "Sour Gummy"; /** Work Sans */
   margin: 0;
   padding: 0;
 }
@@ -60,7 +61,7 @@ html {
 }
 
 .container-header header .logo a {
-  font-family: "Righteous";
+  font-family: "Sour Gummy";
   font-size: 36px;
   color: #e6cc00;
   text-decoration: none;
@@ -72,6 +73,7 @@ html {
 }
 
 .container-header header nav ul li a {
+  font-size: 22px;
   text-align: none;
   color: #fff;
   margin: 0 15px;
@@ -101,7 +103,7 @@ html {
       rgba(10, 12, 11, 0.2),
       rgba(10, 12, 11, 1)
     ),
-    url(img/background-image.jpg);
+    url(https://lh7-rt.googleusercontent.com/docsz/AD_4nXdPXRxfad5FdbVw2Ofus7SVMfZMe793AJ3WDH--d-S9LkWCIAalUaCEXtBMsoZPAawyJXjABgxY0wfIgqveE0w9wpLa90fHS1oithyLde2CpqAoKJCRt29ZuA0sz5MxDCmjiHO7jlzFLsUfGzHkfUEU31ABich6JzN2XqXC9g?key=E81dqRdG-ZbM7v8dCLi4eg);
   background-size: cover;
   height: 120vh;
   color: #fff;
@@ -134,7 +136,7 @@ html {
   color: #1e2326;
   margin-top: 30px;
   font-size: 40px;
-  font-family: "Righteous";
+  font-family: "Sour Gummy";
 }
 
 .home .container-banner h2 {
@@ -162,7 +164,7 @@ html {
 }
 
 .aboutme {
-  background-color: #1e2326;
+  background-color: #e6cc00;
   color: #fff;
   padding: 50px 20px;
 }
@@ -173,22 +175,26 @@ html {
 }
 
 .aboutme h2 {
-  font-size: 48px;
-  font-family: "Righteous";
+  font-size: 46px;
+  font-family: "Sour Gummy";
   text-align: center;
   padding: 20px 0;
-  color: #e6cc00;
+  color: #1e2326;
 }
 
-.aboutme .container-section p {
-  font: 28px;
-  line-height: 22px;
-  margin-bottom: 20px;
-  padding: 40px 0px;
+.aboutme .container-section h3 {
+  font: 38px;
+  font-family: 'Sour Gummy';
+  color: #1e2326;
+  line-height: 25px;
+  margin-bottom: 10px;
+  padding: 30px 0px;
 }
 
-.aboutme .container-section p span {
-  color: #e6cc00;
+.aboutme .container-section h3 span {
+  font: 38px;
+  font-family: 'Sour Gummy';
+  color: #fff;
   font-weight: bold;
 }
 
@@ -201,9 +207,9 @@ html {
 }
 
 .aboutme .fila .col h3 {
-  color: #e6cc00;
+  color: #1e2326;
   font-size: 28px;
-  font-family: "Righteous";
+  font-family: "Sour Gummy";
   margin-bottom: 25px;
 }
 
@@ -330,7 +336,7 @@ html {
 
 .skills h2 {
   font-size: 48px;
-  font-family: "Righteous";
+  font-family: "Sour Gummy";
   text-align: center;
   padding: 40px 0;
   color: #e6cc00;
@@ -347,7 +353,7 @@ html {
 
 .skills .fila .col h3 {
   font-size: 28px;
-  font-family: "Righteous";
+  font-family: "Sour Gummy";
   margin-bottom: 25px;
 }
 
@@ -566,7 +572,7 @@ html {
 .curriculum h2 {
   color: #e6cc00;
   font-size: 48px;
-  font-family: "Righteous";
+  font-family: "Sour Gummy";
   text-align: center;
   padding: 20px 0;
 }
@@ -583,7 +589,7 @@ html {
 
 .curriculum .fila .col h3 {
   font-size: 28px;
-  font-family: "Righteous";
+  font-family: "Sour Gummy";
   margin-bottom: 25px;
 }
 
@@ -690,7 +696,7 @@ html {
 
 .portfolio h2 {
   font-size: 48px;
-  font-family: "Righteous";
+  font-family: "Sour Gummy";
   text-align: center;
   padding: 20px 0;
 }
