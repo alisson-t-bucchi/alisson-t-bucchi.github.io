@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- SECTION HEADER -->
+    <div class="container-header">
+      <header>
+        <div class="logo">
+          <a href="#home">Info & Portfolio</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#home" onclick="selection()">HOME</a></li>
+            <li><a href="#aboutme" onclick="selection()">ABOUT ME</a></li>
+            <li><a href="#skills" onclick="selection()">SKILLS</a></li>
+            <li><a href="#curriculum" onclick="selection()">CURRICULUM</a></li>
+            <li><a href="#portfolio" onclick="selection()">PORTFOLIO</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="showMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+    <!-- SECTION HEADER -->
+
+    <!-- SECTION HOME -->
+    <section id="home" class="home">
+      <div class="container-banner">
+        <div class="container-img">
+          <img src="img/photo.jpg" alt="personal image" />
+        </div>
+        <h1>Alisson Bucchi</h1>
+        <h2>Full Stack Dev & QA Tester</h2>
+        <div class="network-icons">
+          <a href="https://www.instagram.com/being_dev_tech/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/alisson-tex-bucchi/" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/alisson-t-bucchi" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION HOME -->
+
+    <!-- SECTION ABOUT ME -->
+    <section id="about-me" class="about-me">
+      <div class="container-section">
+        <h2>ABOUT ME</h2>
+        <h3>
+          <span> Hey you, I'm Alisson Bucchi. </span> Graduated in Computer
+          Networks and Systems from ESNIDH, with expertise in Network Management
+          and Programming (C, Python, Java). Nowadays I'm Full Stack Web
+          Development and a Quality Assurance Tester lover, working with
+          different automation tools and developing APIs. Fluent in English,
+          French and Italian, I'm proactive, multitasking and work well in a
+          team. I'm always up for new challenges that allow me to apply and
+          expand my technical and interpersonal skills.
+        </h3>
+
+        <!-- PROFESSIONAL CONTAINER -->
+        <div class="professional-section">
+          <div class="col-1">
+            <h3>Professional infos</h3>
+            <div class="professional-container">
+              <div class="professional">
+                <i class="fa-solid fa-medal"></i>
+                <span> Experience </span>
+                <span> 2 years </span>
+              </div>
+              <div class="professional">
+                <i class="fa-solid fa-code"></i>
+                <span> Software </span>
+                <span> dev </span>
+              </div>
+              <div class="professional">
+                <i class="fa-solid fa-robot"></i>
+                <span> QA </span>
+                <span> Tester </span>
+              </div>
+              <div class="professional">
+                <i class="fa-solid fa-gear"></i>
+                <span> Automation </span>
+                <span> Process </span>
+              </div>
+             <!--  <div class="professional">
+                <i class="fa-solid fa-database"></i>
+                <span> API </span>
+                <span> dev </span>
+              </div> -->
+            </div>
+          </div>
+
+          <!-- INTERESTS CONTAINER -->
+          <div class="col-2">
+            <h3>Personal interests</h3>
+            <div class="interests-container">
+              <div class="interests">
+                <i class="fa-solid fa-plane"></i>
+                <span>TRAVEL</span>
+              </div>
+              <div class="interests">
+                <i class="fa-brands fa-windows"></i>
+                <span>TECH</span>
+              </div>
+              <div class="interests">
+                <i class="fa-solid fa-person-running"></i>
+                <span>SPORT</span>
+              </div>
+              <div class="interests">
+                <i class="fa-solid fa-code"></i>
+                <span>CODE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DOCUMENTS BUTTONS CONTAINER -->
+        <div class="document-buttons">
+          <button>
+            <a style="color: white; text-decoration: none" href="./docs/Linkedin-CV-model-2.pdf" download> Download CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+            </a>
+          </button>
+         <!--  <button>
+            <a style="color: white; text-decoration: none" href="./docs/Tech-skills-doc.pdf" download> Tech Skills Doc <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+            </a>
+          </button> -->
+        </div>
+      </div>
+    </section>
+    <!-- SECTION ABOUT ME -->
+
+    <!-- SECTION SKILLS -->
+    <section class="skills" id="skills">
+      <div class="container-section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <!-- Technical Skill -->
+          <div class="col">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+              <span>Java</span>
+              <div class="progression-bar-skill">
+                <div class="progress">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Javascript</span>
+              <div class="progression-bar-skill">
+                <div class="progress">
+                  <span>60%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Python</span>
+              <div class="progression-bar-skill">
+                <div class="progress">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Selenium</span>
+              <div class="progression-bar-skill">
+                <div class="progress">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Cypress</span>
+              <div class="progression-bar-skill">
+                <div class="progress">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Robot Framework</span>
+              <div class="progression-bar-skill">
+                <div class="progress">
+                  <span>55%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Professional Skills -->
+          <div class="col">
+            <h3>Professional Skills</h3>
+            <div class="skill">
+              <span>Comunication</span>
+              <div class="progression-bar-skill">
+                <div class="progress">
+                  <span>95%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Team Work</span>
+              <div class="progression-bar-skill">
+                <div class="progress">
+                  <span>100%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Creativity</span>
+              <div class="progression-bar-skill">
+                <div class="progress">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Dedication</span>
+              <div class="progression-bar-skill">
+                <div class="progress">
+                  <span>100%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Project Management</span>
+              <div class="progression-bar-skill">
+                <div class="progress">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION SKILLS -->
+
+    <!-- SECTION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+      <div class="container-section">
+        <h2>Curriculum</h2>
+        <div class="cv-container">
+          <div class="col left">
+            <h3>1. Course LEVEL 5 (EQF)</h3>
+            <div class="item left">
+              <h4>Network and Information Systems</h4>
+              <span class="place">ESNIDH</span>
+              <span class="date">02/2021 - 07/2023</span>
+              <p>
+                Science and Technology Course based in Programming and Networking Management with Cibersecurity. 
+                Level 5 course of the European Qualifications Framework (EQF). (16)
+              </p>
+              <span class="icons-cv">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+                <img src="img/cisco_icon.png"/>
+              </span>
+            </div>
+          </div>
+
+          <div class="col right">
+            <h3>2. Internship</h3>
+            <div class="item right">
+              <h4>Junior Full-Stack Web Dev & QA dev</h4>
+              <span class="place">DXNET</span>
+              <span class="date">02/2023 - 06/2023</span>
+              <p>
+                Creations of Java scripts using Selenium Framework, including unit, regression and E2E tests. 
+                Integration into DevOps process, within Docker, Jenkins and SonarQube.
+              </p>
+              <span class="icons-cv">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cucumber/cucumber-plain.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sonarqube/sonarqube-original.svg">
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cv-container">
+          <div class="col left">
+            <h3>3. First Work</h3>
+            <div class="item left">
+              <h4>
+                Software Dev | QA Tester | Tools and Automation Services
+              </h4>
+              <span class="place">Logicalis</span>
+              <span class="date">06/2023 - 07/2024</span>
+              <p>
+                Software development including automation tests in Java and
+                Python using Selenium and other frameworks into a CD/CI process. 
+                Integration of Cisco APIs to Logicalis DB with automation frameworks.
+              </p>
+              <span class="icons-cv">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cucumber/cucumber-plain.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sonarqube/sonarqube-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg">
+              </span>
+            </div>
+          </div>
+
+          <div class="col right">
+            <h3>4. Additional Courses</h3>
+            <div class="item right">
+              <h4>Full Stack Web Development</h4>
+              <span class="place">EDIT School</span>
+              <span class="date">08/2023 - 03/2024</span>
+              <p>
+                Extensive course about Web Development with HTML5, CSS3, Javascript, Typescript and React
+                for Front-end development including unit-tests with Jest. Additionally, for Back-end developing 
+                was offered a solid formation with API development and MongoDB. 
+              </p>
+               <span class="icons-cv">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg">
+              </span>
+            </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION CURRICULUM -->
+
+  
+    <section id="portfolio" class="portfolio">
+        <div class="container-section">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/profile-canva.png" alt="">
+                    <a target="_blank" href="https://alissontbucchi.my.canva.site/"
+                        style="text-decoration: none; color: white;">
+                        <div class="overlay">
+                            <h3>Portifolio with Canva Designs</h3>
+                            <p>Canvas</p>
+                        </div>
+                    </a>
+                </div>
+                  <!-- SECTION PORTFOLIO 
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <a target="_blank" href="https://github.com/andre03fernandes/NotYourCar"
+                        style="text-decoration: none; color: white;">
+                        <div class="overlay">
+                            <h3>Rent a Car Website</h3>
+                            <p>ASP .NET Core Web App (Model-View-Controller)</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Water Company Website</h3>
+                        <p>ASP .NET Core Web App (Model-View-Controller)</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <a target="_blank" href="https://github.com/andre03fernandes/SuperShop"
+                        style="text-decoration: none; color: white;">
+                        <div class="overlay">
+                            <h3>Super Shop Website</h3>
+                            <p>ASP .NET Core Web App (Model-View-Controller)</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <a target="_blank" href="https://github.com/andre03fernandes/SuperShop.Mobile"
+                        style="text-decoration: none; color: white;">
+                        <div class="overlay">
+                            <h3>Super Shop Mobile App</h3>
+                            <p>XAMARIN</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <a target="_blank" href="https://github.com/andre03fernandes/ProjetoAguas"
+                        style="text-decoration: none; color: white;">
+                        <div class="overlay">
+                            <h3>Water Company Windows Forms App</h3>
+                            <p>Windows Forms App</p>
+                        </div>
+                    </a>
+                </div>
+                SECTION PORTFOLIO -->
+            </div>
+        </div>
+    </section>
+   
+
+    <!-- SECTION FOOTER -->
+    <footer>
+      <a href="#home" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="redes">
+        <a href="mailto:alisson.t.bucchi@gmail.com?" target="_blank">
+          <i class="fa fa-envelope"></i>
+        </a>
+        <a href="https://www.instagram.com/being_dev_tech/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/alisson-tex-bucchi/" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/alisson-t-bucchi" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </footer>
+    <!-- SECTION FOOTER -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
