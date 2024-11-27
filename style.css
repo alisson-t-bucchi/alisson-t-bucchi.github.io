@@ -287,18 +287,17 @@ html {
   background-color: #1e2326;
   border: 2px solid #fff;
   width: fit-content;
-  display: inline-block; 
   left:420px;
   margin: 50px auto;
   padding: 10px 22px;
   font-size: 16px;
   color: #fff;
-  position: relative;
   z-index: 10;
   border-radius: 10px;
+  position: relative;
 }
 
-.about-me button .overlay {
+.about-me .document-buttons button .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -882,34 +881,40 @@ footer .arriba {
 
 @media screen and (max-width: 700px) {
   .about-me .professional-section {
-    display: block;
+    display: fit-content;
   }
 
-  .about-me .professional-section .col {
+  .about-me .professional-section .col-1 {
     width: fit-content;
   }
 
-  .skills .professional-section {
+  .about-me .document-buttons button {
+    display: fit-content;
+    width: fit-content;
+    position: inherit;
+  }
+
+  .skills .container-section {
     display: block;
   }
 
-  .skills .professional-section .col {
+  .skills .container-section .col {
     width: 100%;
   }
 
-  .skills .professional-section .col .barra-skill {
+  .skills .container-section .col .progression-bar-skill {
     width: 100%;
   }
 
-  .curriculum .professional-section {
+  .curriculum .container-section {
     display: block;
   }
 
-  .curriculum .professional-section .col {
+  .curriculum .container-section .col {
     width: 90%;
   }
 
-  .curriculum .professional-section .derecha {
+  .curriculum .container-section .left {
     margin-left: 20px;
   }
 
