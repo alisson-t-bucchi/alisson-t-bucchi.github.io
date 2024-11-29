@@ -295,6 +295,7 @@ html {
   z-index: 10;
   border-radius: 10px;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .about-me .document-buttons button .overlay {
@@ -620,18 +621,6 @@ html {
   line-height: 24px;
 }
 
-.curriculum .cv-container .icons-cv {
-  display:flex;
-  justify-content: space-around;
-  padding: 2px;
-  width: 40px;
-  height: 40px;
-  margin: 30px 5px;
-  animation: fadeInAnimation ease-in 5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
 .curriculum .cv-container .left {
   padding: auto;
   border-radius: 20px;
@@ -889,6 +878,7 @@ footer .arriba {
   }
 
   .about-me .document-buttons button {
+    flex-wrap: wrap;
     display: fit-content;
     width: fit-content;
     position: inherit;
