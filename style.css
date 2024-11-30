@@ -282,7 +282,7 @@ html {
 }
 
 /* DOCUMENTS BUTTONS CONTAINER */
-.about-me .document-buttons button {
+/* .about-me .document-buttons button {
   cursor: pointer;
   background-color: #1e2326;
   border: 2px solid #fff;
@@ -294,12 +294,11 @@ html {
   color: #fff;
   z-index: 10;
   border-radius: 10px;
-  position: relative;
+  position: sticky;
   flex-wrap: wrap;
-}
+} */
 
 .about-me .document-buttons button .overlay {
-  position: absolute;
   top: 0;
   left: 0;
   width: 0;
@@ -310,7 +309,7 @@ html {
   border-radius: 10px;
 }
 
-.about-me button:hover .overlay {
+.about-me .document-buttons button:hover .overlay {
   width: 100%;
 }
 
@@ -877,7 +876,7 @@ footer .arriba {
     width: fit-content;
   }
 
-  .about-me .document-buttons button {
+  .about-me .document-buttons button a span {
     flex-wrap: wrap;
     display: fit-content;
     width: fit-content;
