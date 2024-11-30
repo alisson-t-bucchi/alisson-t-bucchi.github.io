@@ -11,12 +11,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Portfolio</title>
+    <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <!-- SECTION HEADER -->
+    <!-- HEADER SECTION -->
     <div class="container-header">
       <header>
         <div class="logo">
@@ -25,7 +25,7 @@
         <nav id="nav">
           <ul>
             <li><a href="#home" onclick="selection()">HOME</a></li>
-            <li><a href="#aboutme" onclick="selection()">ABOUT ME</a></li>
+            <li><a href="#about-me" onclick="selection()">ABOUT ME</a></li>
             <li><a href="#skills" onclick="selection()">SKILLS</a></li>
             <li><a href="#curriculum" onclick="selection()">CURRICULUM</a></li>
             <li><a href="#portfolio" onclick="selection()">PORTFOLIO</a></li>
@@ -36,9 +36,9 @@
         </div>
       </header>
     </div>
-    <!-- SECTION HEADER -->
+    <!-- HEADER SECTION -->
 
-    <!-- SECTION HOME -->
+    <!-- HOME SECTION -->
     <section id="home" class="home">
       <div class="container-banner">
         <div class="container-img">
@@ -50,7 +50,10 @@
           <a href="https://www.instagram.com/being_dev_tech/" target="_blank">
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="https://www.linkedin.com/in/alisson-tex-bucchi/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/alisson-tex-bucchi/"
+            target="_blank"
+          >
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
           <a href="https://github.com/alisson-t-bucchi" target="_blank">
@@ -59,9 +62,9 @@
         </div>
       </div>
     </section>
-    <!-- SECTION HOME -->
+    <!-- HOME SECTION -->
 
-    <!-- SECTION ABOUT ME -->
+    <!-- ABOUT ME SECTION -->
     <section id="about-me" class="about-me">
       <div class="container-section">
         <h2>ABOUT ME</h2>
@@ -81,11 +84,11 @@
           <div class="col-1">
             <h3>Professional infos</h3>
             <div class="professional-container">
-              <div class="professional">
+              <!--  <div class="professional">
                 <i class="fa-solid fa-medal"></i>
                 <span> Experience </span>
                 <span> 2 years </span>
-              </div>
+              </div> -->
               <div class="professional">
                 <i class="fa-solid fa-code"></i>
                 <span> Software </span>
@@ -101,11 +104,28 @@
                 <span> Automation </span>
                 <span> Process </span>
               </div>
-             <!--  <div class="professional">
-                <i class="fa-solid fa-database"></i>
-                <span> API </span>
-                <span> dev </span>
-              </div> -->
+              <div class="professional">
+                <i class="fa-solid fa-download"></i>
+                <button class="doc-buttons">
+                  <a
+                    style="color: white; text-decoration: none"
+                    href="./docs/PSD_2.pdf"
+                    download
+                  >
+                    <span> Tech Skills document </span>
+                  </a>
+                </button>
+                <!--  <button>
+                  <a
+                    style="color: white; text-decoration: none"
+                    href="./docs/Tech-skills-doc.pdf"
+                    download
+                  >
+                    Tech Skills Doc <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                  </a>
+                </button> -->
+              </div>
             </div>
           </div>
 
@@ -132,25 +152,11 @@
             </div>
           </div>
         </div>
-
-        <!-- DOCUMENTS BUTTONS CONTAINER -->
-        <!-- <div class="document-buttons">
-          <button>
-          <a style="color: white; text-decoration: none" href="./docs/PSD_2.pdf" download> Professional Skill Doc <i class="fa-solid fa-download"></i>
-            <span class="overlay"></span>
-          </a>
-          </button>
-          <button>
-            <a style="color: white; text-decoration: none" href="./docs/Tech-skills-doc.pdf" download> Tech Skills Doc <i class="fa-solid fa-download"></i>
-            <span class="overlay"></span>
-            </a>
-          </button>
-        </div> -->
       </div>
     </section>
-    <!-- SECTION ABOUT ME -->
+    <!-- ABOUT ME SECTION -->
 
-    <!-- SECTION SKILLS -->
+    <!-- SKILLS SECTION -->
     <section class="skills" id="skills">
       <div class="container-section">
         <h2>Skills</h2>
@@ -254,9 +260,9 @@
         </div>
       </div>
     </section>
-    <!-- SECTION SKILLS -->
+    <!-- SKILLS SECTION -->
 
-    <!-- SECTION CURRICULUM -->
+    <!-- CURRICULUM SECTION -->
     <section id="curriculum" class="curriculum">
       <div class="container-section">
         <h2>Curriculum</h2>
@@ -266,11 +272,12 @@
             <div class="item left">
               <h4>Network and Information Systems</h4>
               <span class="place">ESNIDH</span>
-              <span class="date">08/2020 - 07/2022</spsan>
+              <span class="date">08/2020 - 07/2022</span>
               <p>
-                Graduation in Science and Technology course based in Programming and Networking Management with Cibersecurity. 
-                It's a Level 5 course of the European Qualifications Framework (EQF). 
-                (Final grade: 16)
+                Graduation in Science and Technology course based in Programming
+                and Networking Management with Cibersecurity. It's a Level 5
+                course of the European Qualifications Framework (EQF). (Final
+                grade: 16)
               </p>
             </div>
           </div>
@@ -278,15 +285,16 @@
           <div class="col right">
             <h3>2. Internship and First Work</h3>
             <div class="item right">
-              <h4>
-                Software Dev | QA Tester | Tools and Automation Services
-              </h4>
+              <h4>Software Dev | QA Tester | Tools and Automation Services</h4>
               <span class="place">Logicalis</span>
               <span class="date">08/2022 - 08/2024</span>
               <p>
-                Creations of Java and Python scripts using Selenium Framework, including unit, regression and E2E tests and other frameworks into a CD/CI process. 
-                Development of Meeting Software to Private Hospital group in JS including Cisco frameworks and Web JSON tokens.  
-                Integration of Cisco APIs to Logicalis DB with automation frameworks using JSON, Power BI, Postman and Make.
+                Creations of Java and Python scripts using Selenium Framework,
+                including unit, regression and E2E tests and other frameworks
+                into a CD/CI process. Development of Meeting Software to Private
+                Hospital group in JS including Cisco frameworks and Web JSON
+                tokens. Integration of Cisco APIs to Logicalis DB with
+                automation frameworks using JSON, Power BI, Postman and Make.
               </p>
             </div>
           </div>
@@ -300,88 +308,104 @@
               <span class="place">EDIT School</span>
               <span class="date">08/2023 - 03/2024</span>
               <p>
-                Extensive course about Web Development with HTML5, CSS3, Javascript, Typescript and React
-                for Front-end development including unit-tests with Jest. 
-                Additionally, for Back-end developing was offered a solid formation with API development with MongoDB. 
+                Extensive course about Web Development with HTML5, CSS3,
+                Javascript, Typescript and React for Front-end development
+                including unit-tests with Jest. Additionally, for Back-end
+                developing was offered a solid formation with API development
+                with MongoDB.
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- SECTION CURRICULUM -->
+    <!-- CURRICULUM SECTION -->
 
+    <!-- PORTIFOLIO SECTION -->
     <section id="portfolio" class="portfolio">
-        <div class="container-section">
-            <h2>PORTFOLIO</h2>
-            <div class="galeria">
-                <div class="proyecto">
-                    <img src="img/profile-canva.png" alt="">
-                    <a target="_blank" href="https://alissontbucchi.my.canva.site/"
-                        style="text-decoration: none; color: white;">
-                        <div class="overlay">
-                            <h3>Portifolio with Canva Designs</h3>
-                            <p>Canvas</p>
-                        </div>
-                    </a>
-                </div>
-                  <!-- SECTION PORTFOLIO 
-                <div class="proyecto">
-                    <img src="img/p2.jpg" alt="">
-                    <a target="_blank" href="https://github.com/andre03fernandes/NotYourCar"
-                        style="text-decoration: none; color: white;">
-                        <div class="overlay">
-                            <h3>Rent a Car Website</h3>
-                            <p>ASP .NET Core Web App (Model-View-Controller)</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p3.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Water Company Website</h3>
-                        <p>ASP .NET Core Web App (Model-View-Controller)</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p4.jpg" alt="">
-                    <a target="_blank" href="https://github.com/andre03fernandes/SuperShop"
-                        style="text-decoration: none; color: white;">
-                        <div class="overlay">
-                            <h3>Super Shop Website</h3>
-                            <p>ASP .NET Core Web App (Model-View-Controller)</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p5.jpg" alt="">
-                    <a target="_blank" href="https://github.com/andre03fernandes/SuperShop.Mobile"
-                        style="text-decoration: none; color: white;">
-                        <div class="overlay">
-                            <h3>Super Shop Mobile App</h3>
-                            <p>XAMARIN</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p6.jpg" alt="">
-                    <a target="_blank" href="https://github.com/andre03fernandes/ProjetoAguas"
-                        style="text-decoration: none; color: white;">
-                        <div class="overlay">
-                            <h3>Water Company Windows Forms App</h3>
-                            <p>Windows Forms App</p>
-                        </div>
-                    </a>
-                </div>
-                SECTION PORTFOLIO -->
+      <div class="container-section">
+        <h2>PORTFOLIO</h2>
+        <div class="gallery">
+          <div class="projects">
+            <img src="img/profile-canva.png" alt="" />
+            <a
+              target="_blank"
+              href="https://alissontbucchi.my.canva.site/"
+              style="text-decoration: none; color: white"
+            >
+              <div class="overlay">
+                <h3>Portifolio with Canva Designs</h3>
+                <p>Canvas</p>
+              </div>
+            </a>
+          </div>
+        <!--   <div class="projects">
+            <img src="img/p2.jpg" alt="" />
+            <a
+              target="_blank"
+              href="https://github.com/andre03fernandes/NotYourCar"
+              style="text-decoration: none; color: white"
+            >
+              <div class="overlay">
+                <h3>Rent a Car Website</h3>
+                <p>ASP .NET Core Web App (Model-View-Controller)</p>
+              </div>
+            </a>
+          </div>
+          <div class="projects">
+            <img src="img/p3.jpg" alt="" />
+            <div class="overlay">
+              <h3>Water Company Website</h3>
+              <p>ASP .NET Core Web App (Model-View-Controller)</p>
             </div>
-        </div>
+          </div>
+          <div class="projects">
+            <img src="img/p4.jpg" alt="" />
+            <a
+              target="_blank"
+              href="https://github.com/andre03fernandes/SuperShop"
+              style="text-decoration: none; color: white"
+            >
+              <div class="overlay">
+                <h3>Super Shop Website</h3>
+                <p>ASP .NET Core Web App (Model-View-Controller)</p>
+              </div>
+            </a>
+          </div>
+          <div class="projects">
+            <img src="img/p5.jpg" alt="" />
+            <a
+              target="_blank"
+              href="https://github.com/andre03fernandes/SuperShop.Mobile"
+              style="text-decoration: none; color: white"
+            >
+              <div class="overlay">
+                <h3>Super Shop Mobile App</h3>
+                <p>XAMARIN</p>
+              </div>
+            </a>
+          </div>
+          <div class="projects">
+            <img src="img/p6.jpg" alt="" />
+            <a
+              target="_blank"
+              href="https://github.com/andre03fernandes/ProjetoAguas"
+              style="text-decoration: none; color: white"
+            >
+              <div class="overlay">
+                <h3>Water Company Windows Forms App</h3>
+                <p>Windows Forms App</p>
+              </div>
+            </a>
+          </div>
+        </div> -->
+      </div>
     </section>
-   
+    <!-- PORTIFOLIO SECTION -->
 
-    <!-- SECTION FOOTER -->
+    <!-- FOOTER SECTION -->
     <footer>
-      <a href="#home" class="arriba">
+      <a href="#home" class="up-page-arrow">
         <i class="fa-solid fa-angles-up"></i>
       </a>
       <div class="network-icons">
@@ -389,17 +413,20 @@
           <i class="fa fa-envelope"></i>
         </a>
         <a href="https://www.instagram.com/being_dev_tech/" target="_blank">
-            <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="https://www.linkedin.com/in/alisson-tex-bucchi/" target="_blank">
-            <i class="fa-brands fa-linkedin-in"></i>
+        <a
+          href="https://www.linkedin.com/in/alisson-tex-bucchi/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin-in"></i>
         </a>
         <a href="https://github.com/alisson-t-bucchi" target="_blank">
-            <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-github"></i>
         </a>
       </div>
     </footer>
-    <!-- SECTION FOOTER -->
+    <!-- FOOTER SECTION -->
 
     <script src="script.js"></script>
   </body>
