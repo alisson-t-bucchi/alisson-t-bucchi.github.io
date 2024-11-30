@@ -570,10 +570,10 @@ html {
 }
 
 .curriculum .cv-container .item {
-  padding: 20px;
-  margin-bottom: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
   background-color: #e6cc00;
-  position: relative;
+  position: sticky;
   animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
