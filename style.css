@@ -176,7 +176,7 @@ html {
 }
 
 .about-me h2 {
-  font-size: 50px;
+  font-size: 48px;
   font-family: "Sour Gummy";
   text-align: center;
   padding: 20px 0;
@@ -647,6 +647,11 @@ html {
 }
 
 .portfolio .gallery .projects img {
+  width: 100%;
+  display: block;
+}
+
+.portfolio .gallery .projects video {
   width: 100%;
   display: block;
 }
