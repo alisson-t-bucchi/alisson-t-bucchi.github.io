@@ -141,7 +141,7 @@ html {
 
 .home .container-banner h2 {
   color: #1e2326;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: normal;
 }
 
@@ -251,7 +251,7 @@ html {
   .professional-container
   .professional:hover {
   background-color: grey;
-  animation: bounce 2s;
+  /*animation: bounce 2s;*/
 }
 
 .about-me .professional-section .col-1 .professional-container .professional i {
@@ -497,7 +497,6 @@ html {
   0% {
     width: 0%;
   }
-
   100% {
     width: 90%;
   }
@@ -572,9 +571,15 @@ html {
 .curriculum .cv-container .item {
   padding: 10px;
   margin-bottom: 20px;
-  background-color: #e6cc00;
+  background-color: grey;
   position: sticky;
   animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.curriculum .cv-container .item:hover {
+  background-color: #e6cc00;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
