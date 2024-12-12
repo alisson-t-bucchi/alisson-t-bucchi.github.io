@@ -10,10 +10,12 @@ This repository contains the source code for a personal portfolio webpage. The p
 
 ## Features
 
-- **Personal presentation**: A section dedicated to a professional summary.
-- **Skills list**: Display of key competencies and mastered tools.
+- **Home Section**: Personal photo, abilities works and network icons.
+- **About Me**: Short description with professional infos and personal interests.
+- **Skills**: Animated bars skills with indications about techical and professional skills.
+- **Curriculum**: Animated boxes including Education, Certifications and Work Experiences.
 - **Work portfolio**: A gallery showcasing past projects and achievements with links to examples.
-- **Contact**: A form or links to social media to facilitate communication.
+- **Contact**: Icons with links to social media to facilitate communication.
 - **Responsive design**: Fully adaptable to different devices and screen sizes.
 
 ## How to Run the Project
@@ -21,13 +23,13 @@ This repository contains the source code for a personal portfolio webpage. The p
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/personal-portfolio.git
+   git clone https://github.com/alisson-t-bucchi/alisson-t-bucchi.github.io.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd personal-portfolio
+   cd alisson-t-bucchi.github.io
    ```
 
 3. Open the `index.html` file in your browser:
@@ -50,8 +52,9 @@ personal-portfolio/
 ├── js/
 │   └── script.js       # Dynamic functions
 ├── assets/
-│   ├── images/         # Images used on the site
-│   └── icons/          # Icons for the design
+│   ├── img/            # Images used on the site
+│   └── docs/           # Documents to download
+│   └── video/          # Videos about works into Portfolio section
 └── README.md           # Project documentation
 ```
 
@@ -79,4 +82,4 @@ This project is licensed under the [MIT Licence](LICENSE).
 
 ---
 
-Made with ❤ by [Your Name](https://github.com/your-username).
+Made with ❤ by Alisson Bucchi (https://github.com/alisson-t-bucchi).
