@@ -1,14 +1,14 @@
-# Personal Portfolio
+# 👨🏻‍💻 Personal Portfolio
 
 This repository contains the source code for a personal portfolio webpage. The page has been designed to present professional information, skills, experiences, and a selection of past work.
 
-## Technologies Used
+## ⚙️ Technologies Used
 
 - **HTML5**: For the structure of the page content.
 - **CSS3**: For styling and responsive layout.
 - **JavaScript**: For interactivity and dynamic functionalities.
 
-## Features
+## 💻 Features
 
 - **Home Section**: Personal photo, abilities works and network icons.
 - **About Me**: Short description with professional infos and personal interests.
@@ -18,7 +18,7 @@ This repository contains the source code for a personal portfolio webpage. The p
 - **Contact**: Icons with links to social media to facilitate communication.
 - **Responsive design**: Fully adaptable to different devices and screen sizes.
 
-## How to Run the Project
+## 🚀 How to Run the Project
 
 1. Clone this repository:
 
@@ -42,7 +42,7 @@ This repository contains the source code for a personal portfolio webpage. The p
      start index.html
      ```
 
-## Project Structure
+## 📃 Project Structure
 
 ```
 personal-portfolio/
@@ -58,7 +58,7 @@ personal-portfolio/
 └── README.md           # Project documentation
 ```
 
-## Customisation
+## 🖌️ Customisation
 
 - Edit the `index.html` file to change texts and sections according to your needs.
 - Adjust the `styles.css` file to modify colours, fonts, and spacing.
