@@ -563,12 +563,13 @@ html {
 }
 
 .curriculum .cv-container .col h3 {
+  color: #e6cc00;
   font-size: 28px;
   font-family: "Sour Gummy";
   margin-bottom: 25px;
 }
 
-.curriculum .cv-container .item {
+/* .curriculum .cv-container .item {
   padding: 10px;
   margin-bottom: 20px;
   background-color: grey;
@@ -576,22 +577,22 @@ html {
   animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-}
+} */
 
-.curriculum .cv-container .item:hover {
+/* .curriculum .cv-container .item:hover {
   background-color: #e6cc00;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-}
+} */
 
 .curriculum .cv-container .item h4 {
-  color: #fff;
+  color: #e6cc00;
   font-size: 20px;
   margin-bottom: 10px;
 }
 
 .curriculum .cv-container .item .place {
-  color: #131517;
+  color: #fff;
   font-size: 22px;
   font-weight: bold;
   display: block;
@@ -599,12 +600,12 @@ html {
 
 .curriculum .cv-container .item .date {
   display: block;
-  color: #131517;
+  color: #fff;
   margin-bottom: 10px;
 }
 
 .curriculum .cv-container .item p {
-  color: #252a2e;
+  color: #fff;
   line-height: 24px;
 }
 
