@@ -651,6 +651,12 @@ html {
   cursor: pointer;
 }
 
+.portfolio .gallery .projects ul li {
+  position: relative;
+  height: fit-content;
+  margin: 10px;
+}
+
 .portfolio .gallery .projects img {
   width: 100%;
   display: block;
