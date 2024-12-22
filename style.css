@@ -563,37 +563,35 @@ html {
 }
 
 .curriculum .cv-container .col h3 {
-  color: #e6cc00;
+  color: #fff;
   font-size: 28px;
   font-family: "Sour Gummy";
   margin-bottom: 25px;
 }
 
-/* .curriculum .cv-container .item {
+.curriculum .cv-container .item {
   padding: 10px;
   margin-bottom: 20px;
-  background-color: grey;
   position: sticky;
   animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-} */
-
-/* .curriculum .cv-container .item:hover {
+}
+.curriculum .cv-container .item:hover {
   background-color: #e6cc00;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-} */
+}
 
 .curriculum .cv-container .item h4 {
-  color: #e6cc00;
-  font-size: 20px;
+  color: #fff;
+  font-size: 24px;
   margin-bottom: 10px;
 }
 
 .curriculum .cv-container .item .place {
   color: #fff;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   display: block;
 }
