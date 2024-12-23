@@ -573,9 +573,8 @@ html {
   padding: 10px;
   margin-bottom: 10px;
   position: sticky;
-  animation: fadeInAnimation ease 5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  border: 1px solid #fff;
+  box-shadow: 10px 20px grey;
 }
 .curriculum .cv-container .item:hover {
   background-color: #e6cc00;
@@ -800,12 +799,12 @@ footer .network-icons a {
   }
 
   .curriculum .cv-container {
-    flex-direction: column;
+    flex-direction: column;   /* Adicionado */
   }
 
   .curriculum .container-section .col {
-    width: 90%;
-    padding: 0 0 20px; 
+    width: 100%;              /* Modificado */
+    padding: 0 0 20px;        /* Ajuste espaçamento */
   }
 
   .curriculum .container-section .left {
