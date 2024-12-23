@@ -799,8 +799,13 @@ footer .network-icons a {
     display: block;
   }
 
+  .curriculum .cv-container {
+    flex-direction: column;
+  }
+
   .curriculum .container-section .col {
     width: 90%;
+    padding: 0 0 20px; 
   }
 
   .curriculum .container-section .left {
