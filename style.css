@@ -558,7 +558,7 @@ html {
 }
 
 .curriculum .cv-container .col {
-  width: 47%;
+  width: 40%;
   padding: 0 10px;
 }
 
@@ -571,7 +571,7 @@ html {
 
 .curriculum .cv-container .item {
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   position: sticky;
   animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
