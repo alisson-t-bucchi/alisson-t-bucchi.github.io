@@ -677,6 +677,7 @@ html {
   justify-content: center;
   transition: 1s;
   font-size: 18px;
+  color: #131517; 
   letter-spacing: 3px;
   opacity: 0;
 }
