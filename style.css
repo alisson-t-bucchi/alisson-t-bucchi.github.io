@@ -457,6 +457,21 @@ html {
   }
 }
 
+.skills .skill .machine-learning {
+  width: 0%;
+  animation: 2s machine-learning forwards;
+}
+
+@keyframes machine-learning  {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 25%;
+  }
+}
+
 /* PROFESSIONAL SKILLS */
 .skills .skill .comunication {
   width: 0%;

@@ -27,11 +27,12 @@ function skillsEffect() {
     habilidades[3].classList.add("selenium");
     habilidades[4].classList.add("cypress");
     habilidades[5].classList.add("robot");
-    habilidades[6].classList.add("comunication");
-    habilidades[7].classList.add("teamwork");
-    habilidades[8].classList.add("creativity");
-    habilidades[9].classList.add("dedication");
-    habilidades[10].classList.add("project");
+    habilidades[6].classList.add("machine-learning");
+    habilidades[7].classList.add("comunication");
+    habilidades[8].classList.add("teamwork");
+    habilidades[9].classList.add("creativity");
+    habilidades[10].classList.add("dedication");
+    habilidades[11].classList.add("project");
   }
 }
 
