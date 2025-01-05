@@ -294,6 +294,26 @@ html {
   margin-bottom: 10px;
 }
 
+.about-me .professional-section .col-1 .tech-stack-container .tech-stack img {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0px 10px;
+  width: 70px;
+  height: 70px;
+  outline: 0px auto;
+}
+
+.about-me .professional-section .col-2 .tech-stack-container .tech-stack img {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0px 10px;
+  width: 70px;
+  height: 70px;
+  outline: 0px auto;
+}
+
 /* DOCUMENTS BUTTONS CONTAINER */
 
 /* SKILLS SECTION */
@@ -632,18 +652,18 @@ html {
 }
 
 /* PORTFOLIO SECTION */
-.portfolio {
+.projects {
   background-color: #131517;
   color: #fff;
   padding: 50px 20px;
 }
 
-.portfolio .container-section {
+.projects .container-section {
   max-width: 1100px;
   margin: auto;
 }
 
-.portfolio h2 {
+.projects h2 {
   font-size: 48px;
   font-family: "Sour Gummy";
   text-align: center;
@@ -651,13 +671,13 @@ html {
 }
 
 
-.portfolio .gallery {
+.projects .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.portfolio .gallery .projects {
+.gallery .projects {
   padding: 20px;
   margin-bottom: 10px;
   border: 1px solid #252a2e;
@@ -668,20 +688,20 @@ html {
   margin: 10px;
 }
 
-.portfolio .description h3 {
+.projects .description h3 {
   font-size: 20px;
   font-family: "Sour Gummy";
   text-align: center;
   padding: 10px 10px;
 }
 
-.portfolio .description p {
+.projects .description p {
   font-size: 15px;
   font-family: "Sour Gummy";
   text-align: center;
 }
 
-.portfolio .gallery .projects .description .portfolio-buttons  {
+.projects .description .projects-buttons  {
   align-items: center;
   display: flex;
   text-align: center;
@@ -695,7 +715,7 @@ html {
   cursor: pointer;
 }
 
-.portfolio .gallery .projects .description .portfolio-buttons img  {
+.projects .gallery .projects .description .projects-buttons img  {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -706,12 +726,12 @@ html {
   outline: 0px auto;
 }
 
-.portfolio .gallery .projects img {
+.projects .gallery .projects img {
   width: 100%;
   display: block;
 }
 
-.portfolio .gallery .projects video {
+.projects .gallery .projects video {
   width: 100%;
   display: block;
 }
