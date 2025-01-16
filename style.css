@@ -87,6 +87,15 @@ html {
   color: #e6cc00;
 }
 
+.container-header .audio-button {
+  background-color: white;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
 .nav-responsive {
   background-color: #1e2326;
   color: #fff;
