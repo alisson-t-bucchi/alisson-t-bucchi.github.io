@@ -686,10 +686,11 @@ html {
   justify-content: space-around;
 }
 
-.gallery .projects {
+.gallery .tech-projects {
   padding: 20px;
   margin-bottom: 10px;
   border: 1px solid #252a2e;
+  background-color: #252a2e;
   border-radius: 20px;
   position: relative;
   max-width: 340px;
@@ -724,7 +725,7 @@ html {
   cursor: pointer;
 }
 
-.projects .gallery .projects .description .projects-buttons img  {
+.projects .gallery .tech-projects .description .projects-buttons img  {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -735,12 +736,34 @@ html {
   outline: 0px auto;
 }
 
-.projects .gallery .projects img {
+.projects .description .frame-and-tools  {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 15px;
+  margin: 10px 10px;
+  padding: 5px 20px 5px 5px;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.projects .description .frame-and-tools img{
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  margin: 10px 10px;
+  width: 40px;
+  height: 40px;
+  outline: 0px auto;
+}
+
+.projects .gallery .tech-projects img {
   width: 100%;
   display: block;
 }
 
-.projects .gallery .projects video {
+.projects .gallery .tech-projects video {
   width: 100%;
   display: block;
 }
