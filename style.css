@@ -27,7 +27,7 @@
     opacity: 0.2;
   }
   100% {
-    opacity: 0.8;
+    opacity: 1;
   }
 }
 
@@ -87,15 +87,6 @@ html {
   color: #e6cc00;
 }
 
-.container-header .audio-button {
-  background-color: white;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
 .nav-responsive {
   background-color: #1e2326;
   color: #fff;
@@ -107,17 +98,23 @@ html {
 
 /* HOME SECTION */
 .home {
-  background: linear-gradient(
+  /* background: linear-gradient(
       to top,
       rgba(10, 12, 11, 0.2),
       rgba(10, 12, 11, 1)
-    ),
-    url(https://lh7-rt.googleusercontent.com/docsz/AD_4nXdPXRxfad5FdbVw2Ofus7SVMfZMe793AJ3WDH--d-S9LkWCIAalUaCEXtBMsoZPAawyJXjABgxY0wfIgqveE0w9wpLa90fHS1oithyLde2CpqAoKJCRt29ZuA0sz5MxDCmjiHO7jlzFLsUfGzHkfUEU31ABich6JzN2XqXC9g?key=E81dqRdG-ZbM7v8dCLi4eg);
+    ), 
+    url(https://lh7-rt.googleusercontent.com/docsz/AD_4nXdPXRxfad5FdbVw2Ofus7SVMfZMe793AJ3WDH--d-S9LkWCIAalUaCEXtBMsoZPAawyJXjABgxY0wfIgqveE0w9wpLa90fHS1oithyLde2CpqAoKJCRt29ZuA0sz5MxDCmjiHO7jlzFLsUfGzHkfUEU31ABich6JzN2XqXC9g?key=E81dqRdG-ZbM7v8dCLi4eg)
+    */
+  background: 
+    url(assets/img/background-image-colorfull.jpg);
   background-size: cover;
   height: 120vh;
   color: #fff;
   display: flex;
   align-items: center;
+  animation: fadeInAnimation ease-in 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .home .container-banner {
