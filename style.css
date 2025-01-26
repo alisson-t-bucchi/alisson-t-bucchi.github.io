@@ -151,6 +151,12 @@ html {
   font-weight: normal;
 }
 
+.home .container-banner h3 {
+  color: #1e2326;
+  font-size: 15px;
+  font-weight: normal;
+}
+
 .home .container-banner .network-icons a {
   color: #fff;
   display: inline-block;
