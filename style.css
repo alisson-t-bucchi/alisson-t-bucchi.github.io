@@ -95,31 +95,102 @@ html {
   cursor: pointer;
   display: none;
 }
+/* Wave effect */
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 0%;
+  }
+  50% {
+      background-position: 100% 100%;
+  }
+  100% {
+      background-position: 0% 0%;
+  }
+}
+
+.wave {
+  background: rgb(255 255 255 / 25%);
+  border-radius: 1000% 1000% 0 0;
+  position: fixed;
+  width: 200%;
+  height: 12em;
+  animation: wave 10s -3s linear infinite;
+  transform: translate3d(0, 0, 0);
+  opacity: 0.8;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+  bottom: -1.25em;
+  animation: wave 18s linear reverse infinite;
+  opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+  bottom: -2.5em;
+  animation: wave 20s -1s reverse infinite;
+  opacity: 0.9;
+}
+
+@keyframes wave {
+  2% {
+      transform: translateX(1);
+  }
+
+  25% {
+      transform: translateX(-25%);
+  }
+
+  50% {
+      transform: translateX(-50%);
+  }
+
+  75% {
+      transform: translateX(-25%);
+  }
+
+  100% {
+      transform: translateX(1);
+  }
+}
 
 /* HOME SECTION */
 .home {
-  /* background: linear-gradient(
+  height: 120vh;
+  color: #fff;
+  display: flex;
+  overflow: auto;
+  background: linear-gradient(315deg, rgba(255, 255, 255, 1) 3%, rgba(230, 204, 0, 1) 38%, rgba(128, 128, 128, 1) 68%, rgba(30, 35, 38, 1) 98%);
+  animation: gradient 10s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+}
+
+ /*  background: linear-gradient(
       to top,
       rgba(10, 12, 11, 0.2),
       rgba(10, 12, 11, 1)
     ), 
-    url(https://lh7-rt.googleusercontent.com/docsz/AD_4nXdPXRxfad5FdbVw2Ofus7SVMfZMe793AJ3WDH--d-S9LkWCIAalUaCEXtBMsoZPAawyJXjABgxY0wfIgqveE0w9wpLa90fHS1oithyLde2CpqAoKJCRt29ZuA0sz5MxDCmjiHO7jlzFLsUfGzHkfUEU31ABich6JzN2XqXC9g?key=E81dqRdG-ZbM7v8dCLi4eg)
-    */
-  background: 
-    url(assets/img/background-image-colorfull.jpg);
-  background-size: cover;
+    url(https://lh7-rt.googleusercontent.com/docsz/AD_4nXdPXRxfad5FdbVw2Ofus7SVMfZMe793AJ3WDH--d-S9LkWCIAalUaCEXtBMsoZPAawyJXjABgxY0wfIgqveE0w9wpLa90fHS1oithyLde2CpqAoKJCRt29ZuA0sz5MxDCmjiHO7jlzFLsUfGzHkfUEU31ABich6JzN2XqXC9g?key=E81dqRdG-ZbM7v8dCLi4eg); 
+   */
+    /* background: 
+    url(assets/img/background-image-colorfull.jpg); */
+
+/*   background-size: cover;
   height: 120vh;
   color: #fff;
   display: flex;
   align-items: center;
   animation: fadeInAnimation ease-in 3s;
   animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
+  animation-fill-mode: forwards; */
 
 .home .container-banner {
   padding: 20px;
-  background-color: #e6cc00;
+
   max-width: 350px;
   margin: auto;
   text-align: center;
