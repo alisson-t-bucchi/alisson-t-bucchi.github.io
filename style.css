@@ -202,7 +202,7 @@ html {
 
 .home .container-banner img {
   margin-top: 40px;
-  border: 10px solid #fff;
+  border: 5px solid #1e2326; 
   display: block;
   width: 80%;
   margin: auto;
