@@ -915,6 +915,10 @@ footer .network-icons a {
   transition: 0.3s;
 }
 
+footer .network-icons a:hover {
+  background-color: #1e2326;
+}
+
 /* RESPONSIVE SECTION */
 @media screen and (max-width: 980px) {
   nav {
