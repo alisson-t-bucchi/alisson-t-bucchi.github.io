@@ -164,7 +164,7 @@ html {
   display: flex;
   overflow: auto;
   background: linear-gradient(315deg, rgba(255, 255, 255, 1) 3%, rgba(230, 204, 0, 1) 38%, rgba(128, 128, 128, 1) 68%, rgba(30, 35, 38, 1) 98%);
-  animation: gradient 10s ease infinite;
+  animation: gradient 5s ease infinite;
   background-size: 400% 400%;
   background-attachment: fixed;
 }
