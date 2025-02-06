@@ -163,10 +163,13 @@ html {
   color: #fff;
   display: flex;
   overflow: auto;
-  background: linear-gradient(315deg, rgba(255, 255, 255, 1) 3%, rgba(230, 204, 0, 1) 38%, rgba(128, 128, 128, 1) 68%, rgba(30, 35, 38, 1) 98%);
+  background:
+  url(assets/img/background-image-colorfull_3.webp)
+  
+  /* background: linear-gradient(315deg, rgba(255, 255, 255, 1) 3%, rgba(230, 204, 0, 1) 38%, rgba(128, 128, 128, 1) 68%, rgba(30, 35, 38, 1) 98%);
   animation: gradient 5s ease infinite;
   background-size: 400% 400%;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
 
  /*  background: linear-gradient(
@@ -190,7 +193,7 @@ html {
 
 .home .container-banner {
   padding: 20px;
-
+  background-color: #e6cc00;
   max-width: 350px;
   margin: auto;
   text-align: center;
@@ -210,20 +213,20 @@ html {
 }
 
 .home .container-banner h1 {
-  color: #1e2326;
+  color: #131517;
   margin-top: 30px;
   font-size: 40px;
   font-family: "Sour Gummy";
 }
 
 .home .container-banner h2 {
-  color: #1e2326;
+  color: #131517;
   font-size: 20px;
   font-weight: normal;
 }
 
 .home .container-banner h3 {
-  color: #1e2326;
+  color: #131517;
   font-size: 15px;
   font-weight: normal;
 }
