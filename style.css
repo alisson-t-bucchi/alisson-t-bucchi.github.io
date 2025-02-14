@@ -163,33 +163,29 @@ html {
   color: #fff;
   display: flex;
   overflow: auto;
-  background:
-  url(assets/img/background-image-colorfull_3.webp)
+  align-items: center;
+
+  /* background:
+  url(assets/img/background-image-colorfull_3.webp) */
   
-  /* background: linear-gradient(315deg, rgba(255, 255, 255, 1) 3%, rgba(230, 204, 0, 1) 38%, rgba(128, 128, 128, 1) 68%, rgba(30, 35, 38, 1) 98%);
+  background: linear-gradient(315deg, rgba(230, 204, 0, 1) 13%, rgba(255, 255, 255, 1) 38%, rgba(128, 128, 128, 1) 68%, rgba(30, 35, 38, 1) 98%);
   animation: gradient 5s ease infinite;
   background-size: 400% 400%;
-  background-attachment: fixed; */
-}
+  background-attachment: fixed;
 
- /*  background: linear-gradient(
+
+ /* background: linear-gradient(
       to top,
       rgba(10, 12, 11, 0.2),
       rgba(10, 12, 11, 1)
     ), 
-    url(https://lh7-rt.googleusercontent.com/docsz/AD_4nXdPXRxfad5FdbVw2Ofus7SVMfZMe793AJ3WDH--d-S9LkWCIAalUaCEXtBMsoZPAawyJXjABgxY0wfIgqveE0w9wpLa90fHS1oithyLde2CpqAoKJCRt29ZuA0sz5MxDCmjiHO7jlzFLsUfGzHkfUEU31ABich6JzN2XqXC9g?key=E81dqRdG-ZbM7v8dCLi4eg); 
-   */
-    /* background: 
-    url(assets/img/background-image-colorfull.jpg); */
+    url(https://lh7-rt.googleusercontent.com/docsz/AD_4nXdPXRxfad5FdbVw2Ofus7SVMfZMe793AJ3WDH--d-S9LkWCIAalUaCEXtBMsoZPAawyJXjABgxY0wfIgqveE0w9wpLa90fHS1oithyLde2CpqAoKJCRt29ZuA0sz5MxDCmjiHO7jlzFLsUfGzHkfUEU31ABich6JzN2XqXC9g?key=E81dqRdG-ZbM7v8dCLi4eg);
+    animation: fadeInAnimation ease-in 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+    
+}
 
-/*   background-size: cover;
-  height: 120vh;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  animation: fadeInAnimation ease-in 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards; */
 
 .home .container-banner {
   padding: 20px;
