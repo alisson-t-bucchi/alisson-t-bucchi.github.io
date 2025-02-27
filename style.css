@@ -876,12 +876,15 @@ html {
 
 /*FOOTER SECTION*/
 footer {
-  background-color: #e6cc00;
   color: #fff;
   padding: 50px 0 30px 0;
   text-align: center;
   position: relative;
   width: 100%;
+  background: linear-gradient(315deg, rgba(230, 204, 0, 1) 13%, rgba(255, 255, 255, 1) 38%, rgba(128, 128, 128, 1) 68%, rgba(30, 35, 38, 1) 98%);
+  animation: gradient 5s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
 }
 
 footer .up-page-arrow {
